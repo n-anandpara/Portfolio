@@ -1,0 +1,170 @@
+/*
+  Theme Name: Portfolio
+  Author: Neha Anandpara
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+html{
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+ 	color: #666666;
+}
+
+a {
+  color: #18d26e;
+  transition: 0.5s;
+}
+
+a:hover, a:active, a:focus {
+  color: #18d36e;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/*......................................
+#Navbars
+........................................*/
+
+.navbar-onScrolling{
+	background-color: rgba(0, 0, 0, 0.8);
+	font-size: .8rem;
+	font-weight: bold;
+	height: 50px;
+	width: 100%;
+}
+
+.navbar-onScrolling .navbar-brand{
+	font-size: 1.5rem; 
+}
+
+
+/*.brand-name{
+	border-left: 4px #18d26e solid;
+	color: #fff !important;
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 8px;
+	letter-spacing: .2rem;
+}*/
+
+.nav-link-element{
+	color: #fff !important;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	margin: 0px 5px;
+	text-transform: uppercase;
+}
+
+/*.............................................
+#Home
+...............................................*/
+
+#Home{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(../img/home-bg.gif) ;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+  	left: 0;
+ 	right: 0;
+ 	top: 0;
+ 	bottom: 0;
+}
+
+#Home #home-title{
+	color: #18d26e;
+	padding-top: 20%;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+/*.............................................
+#About
+...............................................*/
+
+#About{
+	padding: 60px 0;
+}
+
+#About .About-heading{
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 0px;
+}
+
+#About .About-heading h1 {
+	font-weight: bold;
+}
+
+hr {
+	width: 60px;
+	border-top: 2px solid #000;
+}
+
+#About .About-col {
+	margin: 80px 0;
+}
+
+.hexagon {
+    width: 140px;
+    height: 90px;
+    background: #fc5e5e;
+    position: relative;
+    margin: 10px auto;
+    transform: rotateZ(90deg);
+}
+
+.hexagon:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -45px;
+    left: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 45px solid #fc5e5e;
+}
+
+.hexagon:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: -45px;
+    left: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 45px solid #fc5e5e;
+}
+
+
+#About .About-col .title {
+	font-weight: bold;
+	position: relative;
+	margin-top: 40px;
+	bottom: -10px;
+	font-size: 1.5rem;
+}
+
+
+
