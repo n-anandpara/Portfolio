@@ -166,5 +166,76 @@ hr {
 	font-size: 1.5rem;
 }
 
+.about-pic{
+	top: 60px;
+}
+
+
+.bar-title{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #000;
+  padding-top: 0px;
+  text-align: center;
+}
+
+/*......................................................
+#Progress Bar
+..........................................................*/
+
+/*** RADIAL PROGRESS ***/
+/* Circumference = 2πr */
+/* π = 3.1415926535898 */
+/* r = 35 */
+
+svg.radial-progress {
+  height: auto;
+  max-width: 200px;
+  padding: 1em;
+  transform: rotate(-90deg);
+  width: 100%;
+}
+
+ svg.radial-progress circle {
+  fill: rgba(0,0,0,0);
+  stroke: #fff;
+  stroke-dashoffset: 219.91148575129; /* Circumference */
+  stroke-width: 10;
+}
+
+ svg.radial-progress circle.incomplete { opacity: 0.25; }
+
+ svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
+
+ svg.radial-progress text {
+  fill: #000;
+  font: 400 1em/1 'Oswald', sans-serif;
+  text-anchor: middle;
+}
+
+/*** COLORS ***/
+/* Primary */
+
+.c1 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #a2ed56; }
+
+/* Secondary */
+
+.c2 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #83e4e2; }
+
+/* Tertiary */
+
+.c3 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fd6470; }
+
+/* Quaternary */
+
+.c4 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fca858; }
+
+/* Quinary */
+
+.c5 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fddc32; }
+
+
 
 
