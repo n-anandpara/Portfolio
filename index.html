@@ -34,18 +34,30 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="100">
   
-  <!--.............................Header................................-->
+<!--...........................................Home Page..........................................-->
+
+
+  <section id="Home">
+  <div class="container">
+    <div class="text-center" id="home-title">
+      <h1 class="slideInLeft wow"> Hi, I Am Neha. </h1>
+      <h2 class="slideInRight wow">I am Front End Developer.</h2>
+      <a type="button" class="btn btn-lg slideInUp wow" href="#About"> View My Profile </a>
+    </div>
+  </div>
+  </section>
+
+
+<!--.............................Header................................-->
   
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-transparent fixed-top" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-onScrolling" role="navigation">
       <div class="container">
         <a class="navbar-brand brand-name" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
@@ -64,26 +76,6 @@
         </div>
       </div>
     </nav>
-  </header>
-
-
-<!--...........................................Home Page..........................................-->
-
-
-<section id="Home">
-  <div class="container">
-
-    <div class="text-center" id="home-title">
-      <h1>
-        Hi, I Am
-        <a href="" class="typewrite" data-period="2000" data-type='[ "Neha.", "Front End Developer."]'>
-        <span class="wrap"></span>
-        </a>
-      </h1>
-    </div>
-  </div>
-</section>
-
 
 
 <!--...........................................About Section..........................................-->
@@ -100,22 +92,30 @@
       <!--........About Column.....-->
       <div class="row About-col">
         <div class="col-md-3 fadeInUp wow">
-           <div class= "hexagon"></div> 
+           <div id="hex" class="hexagon-wrapper">
+              <div id="color2" class="hexagon"><i class="fas fa-tachometer-alt"></i></div>
+            </div>
            <h3 class="title">FAST</h3>
            <p>Fast load times and lag free interaction, my highest priority.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.1s">
-          <div class= "hexagon"></div>
+          <div id="hex" class="hexagon-wrapper">
+              <div id="color2" class="hexagon"></div>
+            </div>
           <h3 class="title">RESPONSIVE</h3>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.2s" >
-          <div class= "hexagon"></div>
+          <div id="hex" class="hexagon-wrapper">
+              <div id="color2" class="hexagon"></div>
+            </div>
           <h3 class="title">Intuitive</h3>
           <p>Strong preference for easy to use, intuitive UX/UI.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.3s">
-          <div class= "hexagon"></div>
+          <div id="hex" class="hexagon-wrapper">
+              <div id="color2" class="hexagon"></div>
+            </div>
           <h3 class="title">Dynamic</h3>
           <p>Websites don't have to be static, I love making pages come to life.</p>
         </div>        
@@ -175,7 +175,6 @@
 
               <div class="Portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
-                <p>App</p>
               </div>
             </div>
           </div>
@@ -190,7 +189,6 @@
 
               <div class="Portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
-                <p>App</p>
               </div>
             </div>
           </div>
@@ -205,7 +203,6 @@
 
               <div class="Portfolio-info">
                 <h4><a href="#">Web 1</a></h4>
-                <p>App</p>
               </div>
             </div>
           </div>
@@ -215,7 +212,24 @@
   </section>
 
 
+<!--..............................................Contact Us.........................................-->
 
+  <section id="Contact">
+    <div class="container">
+      <div class="Contact-heading">
+        <h1 class="text-center">Contact</h1>
+        <h2>Feel Free to Contact ME.</h2>
+        <p>Want to Discuss Any of Your Projects. Connect me through...</p>
+          <div class="row">
+            <div class="contact-list">
+              <a href="https://www.facebook.com/nanandpara" target="_blank" > <img src="img/fb.png" class="contact-icon" /><a>
+              <a href="https://in.linkedin.com/in/neha-anandpara-183332b6" target="_blank" > <img src="img/in.png" class="contact-icon" /><a>
+              <a href="mailto:neha.anandpara1234@gmail.com" target="_blank" > <img src="img/g+.png" class="contact-icon" /><a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
 
 
 
