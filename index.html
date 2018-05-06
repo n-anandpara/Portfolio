@@ -14,10 +14,6 @@
 	  <link rel="stylesheet" type="text/css" href="lib/Bootstrap/css/bootstrap-grid.css">
 	  <link rel="stylesheet" type="text/css" href="lib/Bootstrap/css/bootstrap-reboot.css">
 
-
-	<!--My CSS File -->
-	  <link rel="stylesheet" type="text/css" href="css/myStyle.css">
-
   <!--Animation -->
   <link rel="stylesheet" href="css/animation/animations.css">
 
@@ -26,6 +22,14 @@
 
   <!-- Fonts awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+  <!-- Bar Chart -->
+  <link href="lib/barchart/progressbar.css" rel="stylesheet" type="text/css">
+
+
+  <!--My CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
 
 
 </head>
@@ -132,46 +136,80 @@
 
         <!--............Skills......................-->
         <div class="col-md-6 about-skills fadeInRight wow" data-wow-delay="0.2s" >
-          <section id="Progress-bar">
-        <div class="row">
-          <div class="c1 col-md-6">
-            <svg class="radial-progress" data-percentage="82" viewBox="0 0 80 80">
-            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
-            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">82%</text>
-            </svg>
-            <h2 class="bar-title">HTML</h2>
+          <ul class='skills'>
+            <li class='progressbar'   data-width='70'>HTML5</li>
+            <li class='progressbar'   data-width='70'>CSS3</li>
+            <li class='progressbar'   data-width='30'>JavaScript</li>
+            <li class='progressbar'   data-width='60'>jQuery</li>
+            <li class='progressbar'   data-width='50'>Bootstrap</li>
+            <li class='progressbar' data-width='70'>Git</li>
+            <li class='progressbar'   data-width='30'>Photoshop</li>
+        </ul>
+        </div>    
+        <!--............Skills Ended......................-->
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--.............................................Portfolio............................................-->
+
+  <section id="Portfolio">
+    <div class="container">
+      <!--........Portfolio Heading..........-->
+      <div class="Portfolio-heading text-center">
+        <h1>Portfolio</h1>
+        <hr>
+      </div>
+      <!--........Portfolio Content..........-->
+      <div class="row">
+        <div class="col-lg-4 col-md-6 Portfolio-item wow fadeInUp">
+            <div class="Portfolio-wrap">
+              <figure>
+                <img src="img//web1.jpg" class="img-fluid" alt="">
+                <a href="img/web1.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="Portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>App</p>
+              </div>
+            </div>
           </div>
 
-          <div class="c2 col-md-6">
-            <svg class="radial-progress" data-percentage="33" viewBox="0 0 80 80">
-            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 147.3406954533613;"></circle>
-            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">33%</text>
-            </svg>
-            <h2 class="bar-title">CSS</h2>
-          </div> 
+          <div class="col-lg-4 col-md-6 Portfolio-item wow fadeInUp" data-wow-delay="0.1s">
+            <div class="Portfolio-wrap">
+              <figure>
+                <img src="img/web2.jpg" class="img-fluid" alt="">
+                <a href="img/web2.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
 
-          <div class="c3 col-md-6">
-            <svg class="radial-progress" data-percentage="71" viewBox="0 0 80 80">
-            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 63.774330867872806;"></circle>
-            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">71%</text>
-            </svg>
-            <h2 class="bar-title">JavaScript</h2>
-          </div> 
+              <div class="Portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
 
-          <div class="c4 col-md-6">
-            <svg class="radial-progress" data-percentage="24" viewBox="0 0 80 80">
-            <circle class="incomplete" cx="40" cy="40" r="35"></circle>
-            <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 167.13272917097697;"></circle>
-            <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">24%</text>
-            </svg> 
-            <h2 class="bar-title">Bootstrap</h2>
-          </div> 
-        </div>
-      </section>
-        </div>
+          <div class="col-lg-4 col-md-6 Portfolio-item wow fadeInUp" data-wow-delay="0.2s">
+            <div class="Portfolio-wrap">
+              <figure>
+                <img src="img/web3.jpg" class="img-fluid" alt="">
+                <a href="img/web3.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+              </figure>
+
+              <div class="Portfolio-info">
+                <h4><a href="#">Web 1</a></h4>
+                <p>App</p>
+              </div>
+            </div>
+          </div>
+  
       </div>
     </div>
   </section>
@@ -209,23 +247,16 @@
 
 
 
-
-
-
-
-
-
-
-
-
   <!--........................javaScript Libraries......................-->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="lib/Bootstrap/js/bootstrap.js"></script>
     <script src="lib/Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src='lib/animation/css3-animate-it.js'></script>
     <script src="lib/wow/wow.js"></script>
     <script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="lib/barchart/progressbar.js"></script>
     <script src="js/myScript.js"></script>
 
 </body>

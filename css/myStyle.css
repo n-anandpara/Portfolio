@@ -166,76 +166,135 @@ hr {
 	font-size: 1.5rem;
 }
 
-.about-pic{
-	top: 60px;
+
+/*.............................................
+#Portfolio
+...............................................*/
+
+#Portfolio{
+	padding: 60px 0;
 }
 
+#Portfolio .Portfolio-heading{
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	margin-bottom: 0px;
+}
 
-.bar-title{
-  font-family: "Montserrat", sans-serif;
-  font-weight: bolder;
-  margin-bottom: 15px;
-  font-size: 18px;
-  color: #000;
-  padding-top: 0px;
+#Portfolio .Portfolio-heading h1 {
+	font-weight: bold;
+}
+
+#Portfolio .Portfolio-wrap {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+#Portfolio .Portfolio-wrap:hover {
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
+}
+
+#Portfolio .Portfolio-item {
+  position: relative;
+  height: 360px;
+  overflow: hidden;
+}
+
+#Portfolio .Portfolio-item figure {
+  background: #000;
+  overflow: hidden;
+  height: 200px;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+  margin: 0;
+}
+
+#Portfolio .Portfolio-item figure img {
+	height: 100%;
+	width: 100%;
+}
+
+#Portfolio .Portfolio-item figure:hover img {
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+#Portfolio .Portfolio-item figure .link-preview, #Portfolio .Portfolio-item figure .link-details {
+  position: absolute;
+  display: inline-block;
+  opacity: 0;
+  line-height: 1;
   text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.2s linear;
 }
 
-/*......................................................
-#Progress Bar
-..........................................................*/
-
-/*** RADIAL PROGRESS ***/
-/* Circumference = 2πr */
-/* π = 3.1415926535898 */
-/* r = 35 */
-
-svg.radial-progress {
-  height: auto;
-  max-width: 200px;
-  padding: 1em;
-  transform: rotate(-90deg);
-  width: 100%;
+#Portfolio .Portfolio-item figure .link-preview i, #Portfolio .Portfolio-item figure .link-details i {
+  padding-top: 6px;
+  font-size: 22px;
+  color: #333;
 }
 
- svg.radial-progress circle {
-  fill: rgba(0,0,0,0);
-  stroke: #fff;
-  stroke-dashoffset: 219.91148575129; /* Circumference */
-  stroke-width: 10;
+#Portfolio .Portfolio-item figure .link-preview:hover, #Portfolio .Portfolio-item figure .link-details:hover {
+  background: #18d26e;
 }
 
- svg.radial-progress circle.incomplete { opacity: 0.25; }
-
- svg.radial-progress circle.complete { stroke-dasharray: 219.91148575129; /* Circumference */ }
-
- svg.radial-progress text {
-  fill: #000;
-  font: 400 1em/1 'Oswald', sans-serif;
-  text-anchor: middle;
+#Portfolio .Portfolio-item figure .link-preview:hover i, #Portfolio .Portfolio-item figure .link-details:hover i {
+  color: #fff;
 }
 
-/*** COLORS ***/
-/* Primary */
+#Portfolio .Portfolio-item figure .link-preview {
+  left: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
 
-.c1 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #a2ed56; }
+#Portfolio .Portfolio-item figure .link-details {
+  right: calc(50% - 38px);
+  top: calc(50% - 18px);
+}
 
-/* Secondary */
+#Portfolio .Portfolio-item figure:hover .link-preview {
+  opacity: 1;
+  left: calc(50% - 44px);
+}
 
-.c2 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #83e4e2; }
+#Portfolio .Portfolio-item figure:hover .link-details {
+  opacity: 1;
+  right: calc(50% - 44px);
+}
 
-/* Tertiary */
+#Portfolio .Portfolio-item .Portfolio-info {
+  background: #fff;
+  text-align: center;
+  padding: 30px;
+  height: 90px;
+  border-radius: 0 0 3px 3px;
+}
 
-.c3 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fd6470; }
+#Portfolio .Portfolio-item .Portfolio-info h4 {
+  font-size: 18px;
+  line-height: 1px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  padding-bottom: 0;
+}
 
-/* Quaternary */
+#Portfolio .Portfolio-item .Portfolio-info h4 a {
+  color: #333;
+}
 
-.c4 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fca858; }
+#Portfolio .Portfolio-item .Portfolio-info h4 a:hover {
+  color: #18d26e;
+}
 
-/* Quinary */
-
-.c5 svg.radial-progress:nth-of-type(6n+1) circle { stroke: #fddc32; }
-
-
-
-
+#Portfolio .Portfolio-item .Portfolio-info p {
+  padding: 0;
+  margin: 0;
+  color: #b8b8b8;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+}
