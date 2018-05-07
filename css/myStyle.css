@@ -48,35 +48,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-/*......................................
-#Navbars
-........................................*/
 
-.navbar-onScrolling{
-	background-color: #65446d;
-	font-size: .8rem;
-	font-weight: bold;
-	height: 50px;
-	width: 100%;
+hr {
+	width: 60px;
+	border-top: 2px solid #fff;
 }
 
-.nav-link-element{
-	color: #fff !important;
-	font-weight: bold;
-	letter-spacing: .1rem;
-	margin: 0px 5px;
-	text-transform: uppercase;
-}
 
-.navbar-onScrolling span {
-	background-color: #cc3300;
-}
-
-.affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
 /*.............................................
 #Home
 ...............................................*/
@@ -116,13 +94,54 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*......................................
+#Navbars
+........................................*/
+
+.navbar-onScrolling{
+	background-color: #65446d;
+	font-size: .8rem;
+	font-weight: bold;
+	height: 50px;
+	width: 100%;
+}
+
+.nav-link-element{
+	color: #fff !important;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	margin: 0px 5px;
+	text-transform: uppercase;
+}
+
+.navbar-onScrolling span {
+	background-color: #cc3300;
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+/* fixed to top styles */
+.affix.navbar {
+  background-color: #65446d;
+}
+.affix.navbar .nav-item>a, 
+.affix.navbar .navbar-brand {
+    color: #fff;
+}
+
+
 /*.............................................
 #About
 ...............................................*/
 
 #About{
 	padding: 60px 0;
-	height: 1000px;
 }
 
 #About .About-heading{
@@ -135,10 +154,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
-hr {
-	width: 60px;
-	border-top: 2px solid #fff;
-}
 
 #About .About-col {
 	margin: 80px 0;
@@ -188,11 +203,15 @@ hr {
   transform: rotateZ(-60deg);
 }
 
-.hexagon i {
-	color: #fff;
-	font-size: 3rem;
-	text-align: center;
+
+section:nth-of-type(2) .hexagon i {
 	position: absolute;
+	top: 40px;
+	font-size: 50pt;
+	color: #fff;
+	left: 0;
+	right: 0;
+	z-index: 1;
 }
 
 #About .About-col .title {
@@ -204,13 +223,27 @@ hr {
 }
 
 #About .about-pic-and-skills {
-	margin: 40px 0;
+	margin: 20px 0;
 }
 
- #About .about-pic h2 {
+#About .about-pic h2 {
  	color: #ff7885;
  }
+#About .about-pic-and-skills .about-pic .content {
+	font-size: 20px;
+}
 
+#About .about-pic-and-skills .about-pic a {
+	color: #ff7885;
+	font-weight: 600;
+}
+
+#About .about-pic-and-skills .skills .title {
+	text-align: left;
+	font-weight: 600;
+	font-size: 16px;
+	padding-left: 6px;
+}
 
 /*.............................................
 #Portfolio
@@ -219,13 +252,12 @@ hr {
 #Portfolio{
 	padding: 60px 0;
 	height: auto;
-	margin: 60px 0;
 }
 
 #Portfolio .Portfolio-heading{
 	text-transform: uppercase;
 	font-family: "Montserrat", sans-serif;
-	margin-bottom: 0px;
+	margin-bottom: 60px;
 }
 
 #Portfolio .Portfolio-heading h1 {
@@ -286,7 +318,7 @@ hr {
 }
 
 #Portfolio .Portfolio-item figure .link-preview:hover, #Portfolio .Portfolio-item figure .link-details:hover {
-  background: #18d26e;
+  background: #ff7885;
 }
 
 #Portfolio .Portfolio-item figure .link-preview:hover i, #Portfolio .Portfolio-item figure .link-details:hover i {
@@ -334,17 +366,9 @@ hr {
 }
 
 #Portfolio .Portfolio-item .Portfolio-info h4 a:hover {
-  color: #18d26e;
+  color: #3b3251;
 }
 
-#Portfolio .Portfolio-item .Portfolio-info p {
-  padding: 0;
-  margin: 0;
-  color: #b8b8b8;
-  font-weight: 500;
-  font-size: 14px;
-  text-transform: uppercase;
-}
 
 
 /*.......................................
@@ -352,11 +376,14 @@ hr {
 ............................................*/
 
 #Contact {
-	padding: 60px 0px;
+	margin: 60px 0px;
 }
 
-#Contact h1 {
-	margin: 20px;
+#Contact .Contact-heading {
+	margin-bottom: 60px;
+}
+
+#Contact .Contact-heading h1 {
 	font-weight: bold;
 }
 

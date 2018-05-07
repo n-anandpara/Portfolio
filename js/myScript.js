@@ -19,26 +19,56 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 /*.............Changing Color on Scrolling....................*/
 
 
-var $document = $(document),
+/*var $document = $(document),
 	$element = $('.navbar'),
 	FixedTop = 'fixed-top';
 
 	fadeIn = 'fadeIn';
 
 	$document.scroll(function(){
-		if ($document.scrollTop() > 640) {
+		if ($document.scrollTop() > 100vh) {
 			$element.addClass(FixedTop);
 
 			$element.addClass(fadeIn);
 		}
 
 
-		if ($document.scrollTop() < 640) {
+		if ($document.scrollTop() < 100vh) {
 			$element.removeClass(FixedTop);
 
 			$element.removeClass(fadeIn);
 		}
-	});
+	});*/
+
+	var toggleAffix = function(affixElement, scrollElement, wrapper) {
+  
+    var height = affixElement.outerHeight(),
+        top = wrapper.offset().top;
+    
+    if (scrollElement.scrollTop() >= top){
+        wrapper.height(height);
+        affixElement.addClass("affix");
+    }
+    else {
+        affixElement.removeClass("affix");
+        wrapper.height('auto');
+    }
+      
+  };
+  
+
+  $('[data-toggle="affix"]').each(function() {
+    var ele = $(this),
+        wrapper = $('<div></div>');
+    
+    ele.before(wrapper);
+    $(window).on('scroll resize', function() {
+        toggleAffix(ele, $(this), wrapper);
+    });
+    
+    // init
+    toggleAffix(ele, $(window), wrapper);
+  });
 
 
 /*.....................Progress Bar...............................*/
@@ -47,7 +77,7 @@ var $document = $(document),
 		shadow : true,
 		percentage : false,
 		animation : true,
-		barColor : "#527AF9",
+		barColor : "#ff7885",
 	});
 	
 	//Menu

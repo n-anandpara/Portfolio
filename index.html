@@ -20,6 +20,9 @@
   <!-- Ionic Icons-->
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
   <!-- Fonts awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
@@ -29,6 +32,8 @@
 
   <!--My CSS File -->
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
+
+
 
 
 
@@ -52,7 +57,7 @@
 
 <!--.............................Header................................-->
   
-    <nav class="navbar navbar-expand-lg navbar-onScrolling" data-spy="affix" data-offset-top="197" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-onScrolling" data-toggle="affix" role="navigation">
       <div class="container">
         <a class="navbar-brand brand-name" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,8 +89,8 @@
     <div class="container text-center">
       <!--........About Heading.....-->
       <div class="About-heading">
-        <h1>About</h1>
-        <hr>
+        <h1 class="slideInLeft wow">About</h1>
+        <hr class="slideInRight wow">
       </div>
       <!--........About Heading Ended.....-->
 
@@ -93,28 +98,28 @@
       <div class="row About-col">
         <div class="col-md-3 fadeInUp wow">
            <div id="hex" class="hexagon-wrapper">
-              <div id="color2" class="hexagon"><span><i class="fas fa-tachometer-alt"></i></span></div>
+              <div id="color2" class="hexagon"><span><i class="fas fa-tachometer-alt"></i><span></div>
             </div>
            <h3 class="title">FAST</h3>
            <p>Fast load times and lag free interaction, my highest priority.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.1s">
           <div id="hex" class="hexagon-wrapper">
-              <div id="color2" class="hexagon"></div>
+              <div id="color2" class="hexagon"><i class="fas fa-mobile-alt"></i></div>
             </div>
           <h3 class="title">RESPONSIVE</h3>
           <p>My layouts will work on any device, big or small.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.2s" >
           <div id="hex" class="hexagon-wrapper">
-              <div id="color2" class="hexagon"></div>
+              <div id="color2" class="hexagon"><i class="far fa-lightbulb"></i></div>
             </div>
           <h3 class="title">Intuitive</h3>
           <p>Strong preference for easy to use, intuitive UX/UI.</p>
         </div>
         <div class="col-md-3 fadeInUp wow" data-wow-delay="0.3s">
           <div id="hex" class="hexagon-wrapper">
-              <div id="color2" class="hexagon"></div>
+              <div id="color2" class="hexagon"><i class="fas fa-rocket"></i></div>
             </div>
           <h3 class="title">Dynamic</h3>
           <p>Websites don't have to be static, I love making pages come to life.</p>
@@ -137,13 +142,13 @@
         <!--............Skills......................-->
         <div class="col-md-6 about-skills fadeInRight wow" data-wow-delay="0.2s" >
           <ul class='skills'>
-            <li class='progressbar'   data-width='70'>HTML5</li>
-            <li class='progressbar'   data-width='70'>CSS3</li>
-            <li class='progressbar'   data-width='30'>JavaScript</li>
-            <li class='progressbar'   data-width='60'>jQuery</li>
-            <li class='progressbar'   data-width='50'>Bootstrap</li>
-            <li class='progressbar' data-width='70'>Git</li>
-            <li class='progressbar'   data-width='30'>Photoshop</li>
+            <li class='progressbar title'   data-width='70'>HTML5</li>
+            <li class='progressbar title'   data-width='70'>CSS3</li>
+            <li class='progressbar title'   data-width='30'>JavaScript</li>
+            <li class='progressbar title'   data-width='60'>jQuery</li>
+            <li class='progressbar title'   data-width='50'>Bootstrap</li>
+            <li class='progressbar title' data-width='70'>Git</li>
+            <li class='progressbar title'   data-width='30'>Photoshop</li>
         </ul>
         </div>    
         <!--............Skills Ended......................-->
@@ -174,7 +179,7 @@
               </figure>
 
               <div class="Portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
+                <h4><a href="#">Website 1</a></h4>
               </div>
             </div>
           </div>
@@ -188,7 +193,7 @@
               </figure>
 
               <div class="Portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
+                <h4><a href="#">Website 2</a></h4>
               </div>
             </div>
           </div>
@@ -202,7 +207,7 @@
               </figure>
 
               <div class="Portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
+                <h4><a href="#">Website 3</a></h4>
               </div>
             </div>
           </div>
@@ -218,16 +223,18 @@
     <div class="container">
       <div class="Contact-heading">
         <h1 class="text-center">Contact</h1>
+        <hr>
+      </div>
         <h2>Feel Free to Contact ME.</h2>
         <p>Want to Discuss Any of Your Projects. Connect me through...</p>
           <div class="row">
             <div class="contact-list">
-              <a href="https://www.facebook.com/nanandpara" target="_blank" > <img src="img/fb.png" class="contact-icon" /><a>
-              <a href="https://in.linkedin.com/in/neha-anandpara-183332b6" target="_blank" > <img src="img/in.png" class="contact-icon" /><a>
-              <a href="mailto:neha.anandpara1234@gmail.com" target="_blank" > <img src="img/g+.png" class="contact-icon" /><a>
+              <a href="https://www.facebook.com/nanandpara" target="_blank" > <img src="img/fb.png"/><a>
+              <a href="https://in.linkedin.com/in/neha-anandpara-183332b6" target="_blank" > <img src="img/in.png"/><a>
+              <a href="mailto:neha.anandpara1234@gmail.com" target="_blank" > <img src="img/g+.png"/><a>
+              <a href="https://github.com/n-anandpara/" target="_blank" > <img src="img/git1.png" /><a>
             </div>
           </div>
-      </div>
     </div>
   </section>
 
