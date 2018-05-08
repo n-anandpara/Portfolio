@@ -175,7 +175,7 @@ hr {
 }
 
 .navbar-onScrolling span i{
-	align-content: right;
+	align-content: left;
 	color: #fff;
 	border: 1px solid #fff;
 	padding: 7px;
