@@ -81,7 +81,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 	});
 	
 	//Menu
-	$(".spinDown").click(function() {
+/*	$(".spinDown").click(function() {
 		var target = $(this).data("target");
 		var scrollFix = -80;
 		target = "#" + target;
@@ -89,4 +89,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 			scrollTop : $(target).offset().top + scrollFix
 		}, 1000);
 		return false;
-	});
+	});*/
+
+
+
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
