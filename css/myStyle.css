@@ -152,10 +152,6 @@ hr {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  br{
-    line-height: 0px;
-  }
-
 } 
 
 
@@ -180,7 +176,6 @@ hr {
 	border: 1px solid #fff;
 	padding: 7px;
 	margin: 0px;
-	top: -10px;
 }
 
 .affix {
