@@ -72,8 +72,8 @@ hr {
 }
 
 #Home .home-img {
-  padding-left: 26%;
-  margin-top: 60px;
+  padding-left: calc(40% - 90px);
+  margin-top: calc(5% - 20px);
 }
 
 #Home .home-img img {
@@ -84,16 +84,20 @@ hr {
  #Home #home-title{
   font-weight: 0;
   right: 0;
-  left: 90px;
+  left: calc(15% - 10px);
   bottom: 0;
   color: #fff;
   text-align: left;
 }
 
+#Home #home-title .title-wrap {
+  padding-top: calc(8% - 10px);
+}
+
 #Home #home-title .text{
-  padding: 70px 60px 0 0;
+  padding-right: calc(4% - 80px);
   font-size: 24px;
-  margin: 1px;
+  width: 100%;
 }
 
 #Home #home-title .text span {
@@ -118,34 +122,22 @@ hr {
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #Home .home-img {
-      padding-left: 10%;
-      margin-top: 40px;
-    }
-
     #Home .home-img img {
       height: 120px;
       width: 70px;
     }
 
-     #Home #home-title{
-      font-weight: 0;
-      right: 0;
-      left: 50px;
-      bottom: 0;
-      color: #fff;
-      text-align: left;
+    #Home #home-title .text{
+      font-size: 16px;
+      letter-spacing: 1px;
     }
 
-    #Home #home-title .text{
-      padding: 40px 20px 0 0;
-      font-size: 16px;
-      margin: 1px;
-    } 
     #Home #home-title p {
-      margin-top: 18px;
+      margin-top: 10px;
       font-size: 12px;
-}
+    }
+
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -158,7 +150,13 @@ hr {
 @media only screen and (min-width: 992px) {...}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...} 
+@media only screen and (min-width: 1200px) {
+
+  br{
+    line-height: 0px;
+  }
+
+} 
 
 
 /*......................................
@@ -213,21 +211,28 @@ hr {
 ...............................................*/
 
 #About{
-	padding: 60px 0;
+	padding: 60px 0 0 0;
 }
 
 #About .About-heading{
-	text-transform: uppercase;
 	margin-bottom: 0px;
 }
 
 #About .About-heading h1 {
+  text-transform: uppercase;
 	font-weight: bold;
 }
 
 
+#About .About-col-heading {
+  font-size: 2rem;
+  color: #fff;
+  margin: 80px 0 0 0;
+}
+
+
 #About .About-col {
-	margin: 80px 0;
+  margin: 30px 0;
 }
 
 .hexagon-wrapper {
@@ -291,11 +296,14 @@ section:nth-of-type(2) .hexagon i {
 	margin-top: 10px;
 	bottom: -10px;
 	font-size: 1.5rem;
-  text-transform: 
 }
 
 #About .about-pic-and-skills {
-	margin: 60px 0 0 0;
+	margin: 30px 0 0 0;
+}
+
+#About .about-pic-and-skills .col-md-6 {
+  margin: 30px 0 0 0;
 }
 
 #About .discription h2 {
@@ -425,7 +433,7 @@ section:nth-of-type(2) .hexagon i {
 ............................................*/
 
 #Contact {
-	margin: 60px 0px;
+	margin: 60px 0 0 0;
 }
 
 #Contact .Contact-heading {
