@@ -58,91 +58,341 @@ hr {
 ...............................................*/
 
 #Home{
-	background-image: url(../img/bg.jpg);
-	background-size: cover;
-	height: 100vh;
-	position: relative;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  height: 100vh;
   left: 0;
- 	right: 0;
- 	top: 0;
- 	bottom: 0;
-}
-
-#Home .container .row {
-  padding-top: 20%;
-}
-
-#Home .home-img {
-  margin-top: 20px;
-  padding-left: 21%;
-  padding-right: 0px;
-  margin-right: 0px;
-  align-items: right;
-}
-
-#Home .home-img img {
-  height: 300px;
-  width: 250px;
-}
-
-#Home #home-title h1, h2 {
-  font-size: 28px;
-  margin: 1px;
-}
-
-#Home #home-title p {
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-@media only screen and (max-width: 600px){
-  #Home .home-img img {
-  height: 110px;
-  width: 80px;
-  }
-
-  #Home #home-title h1 span {
-    font-size: 90%;
-  }
-
-}
-
-#Home #home-title{
   right: 0;
-  left: 0;
+  top: 0;
   bottom: 0;
-  top: 50px;
-	color: #fff;
-  text-align: left;
-  padding-left: 0px;
-  margin-top: 60px;
-  font-weight: 0;
-  padding-right: 40px;
-}
-
-
-#Home #home-title h1 span {
-  color: #ff7885;
 }
 
 
 
-#Home #home-title a {
-	color: #fff;
-	border: 1px solid transparent;
-	border-radius: 20px;
-  height: 25px;
-  width: 70px;
-  text-align: center;
-  background-color: #ff7885;
-  padding: 0;
+@media only screen and (max-width: 600px) {
+    #Home .container .row {
+           padding-top: 40%;
+         }
+
+        #Home .home-img {
+          margin-top: 100px;
+          padding-left: 8%;
+          padding-right: 0px;
+          margin-right: 0px;
+          align-items: right;
+        }
+
+        #Home .home-img img {
+          height: 250px;
+          width: 150px;
+        }
+
+        #Home #home-title{
+          right: 0;
+          left: 0;
+          bottom: 0;
+          top: 70px;
+          color: #fff;
+          padding-top: 16%;
+          font-weight: 0;
+          padding-right: 0;
+          position: relative;
+          padding-left: 0;
+        }
+
+        #Home #home-title h1, h2 {
+          font-size: 24px;
+          margin: 1px;
+        }
+
+        #Home #home-title h1 span {
+          color: #ff7885;
+        }
+
+        #Home #home-title p {
+          margin-top: 20px;
+          font-size: 18px;
+        }
+
+        #Home #home-title a {
+          color: #fff;
+          border: 1px solid transparent;
+          border-radius: 20px;
+          height: 25px;
+          width: 70px;
+          text-align: center;
+          background-color: #ff7885;
+          padding: 0;
+        }
+
+        #Home #home-title a:hover {
+          background-color: #fff;
+          color: #ff7885;
+          border: 1px solid #ff7885;
+        }
 }
 
-#Home #home-title a:hover {
-	background-color: #fff;
-	color: #ff7885;
-  border: 1px solid #ff7885;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+         #Home .container .row {
+           padding-top: 40%;
+         }
+
+        #Home .home-img {
+          margin-top: 100px;
+          padding-left: 8%;
+          padding-right: 0px;
+          margin-right: 0px;
+          align-items: right;
+        }
+
+        #Home .home-img img {
+          height: 250px;
+          width: 150px;
+        }
+
+        #Home #home-title{
+          right: 0;
+          left: 0;
+          bottom: 0;
+          top: 70px;
+          color: #fff;
+          padding-top: 16%;
+          font-weight: 0;
+          padding-right: 0;
+          position: relative;
+          padding-left: 0;
+        }
+
+        #Home #home-title h1, h2 {
+          font-size: 24px;
+          margin: 1px;
+        }
+
+        #Home #home-title h1 span {
+          color: #ff7885;
+        }
+
+        #Home #home-title p {
+          margin-top: 20px;
+          font-size: 18px;
+        }
+
+        #Home #home-title a {
+          color: #fff;
+          border: 1px solid transparent;
+          border-radius: 20px;
+          height: 25px;
+          width: 70px;
+          text-align: center;
+          background-color: #ff7885;
+          padding: 0;
+        }
+
+        #Home #home-title a:hover {
+          background-color: #fff;
+          color: #ff7885;
+          border: 1px solid #ff7885;
+        }
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #Home .container .row {
+      padding-top: 30%;
+    }
+
+    #Home .home-img {
+      margin-top: 100px;
+      padding-left: 22%;
+      padding-right: 0px;
+      margin-right: 0px;
+      align-items: right;
+    }
+
+    #Home .home-img img {
+      height: 310px;
+      width: 200px;
+    }
+
+    #Home #home-title{
+      right: 0;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      color: #fff;
+      text-align: left;
+      padding-top: 20%;
+      font-weight: 0;
+      padding-right: 0;
+      position: relative;
+      padding-left: 3%;
+    }
+
+    #Home #home-title h1, h2 {
+      font-size: 26px;
+      margin: 1px;
+    }
+
+    #Home #home-title h1 span {
+      color: #ff7885;
+    }
+
+    #Home #home-title p {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    #Home #home-title a {
+      color: #fff;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      height: 25px;
+      width: 70px;
+      text-align: center;
+      background-color: #ff7885;
+      padding: 0;
+    }
+
+    #Home #home-title a:hover {
+      background-color: #fff;
+      color: #ff7885;
+      border: 1px solid #ff7885;
+    }
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #Home .container .row {
+      padding-top: 30%;
+    }
+
+    #Home .home-img {
+      margin-top: 100px;
+      padding-left: 22%;
+    }
+
+    #Home .home-img img {
+      height: 350px;
+      width: 300px;
+    }
+
+    #Home #home-title{
+      right: 0;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      color: #fff;
+      text-align: left;
+      padding-top: 16%;
+      font-weight: 0;
+      padding-right: 0;
+      position: relative;
+      padding-left: 7%;
+    }
+
+    #Home #home-title h1, h2 {
+      font-size: 28px;
+      margin: 1px;
+    }
+
+    #Home #home-title h1 span {
+      color: #ff7885;
+    }
+
+    #Home #home-title p {
+      margin-top: 18px;
+      font-size: 24px;
+    }
+
+     #Home #home-title a {
+      color: #fff;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      height: 25px;
+      width: 70px;
+      text-align: center;
+      background-color: #ff7885;
+      padding: 0;
+    }
+
+    #Home #home-title a:hover {
+      background-color: #fff;
+      color: #ff7885;
+      border: 1px solid #ff7885;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #Home .container .row {
+      padding-top: 20%;
+    }
+
+    #Home .home-img {
+      margin-top: 100px;
+      padding-left: 26%;
+      padding-right: 0px;
+      margin-right: 0px;
+      align-items: right;
+    }
+
+    #Home .home-img img {
+      height: 400px;
+      width: 350px;
+    }
+
+
+    #Home #home-title{
+      right: 0;
+      left: 0;
+      bottom: 0;
+      top: 50px;
+      color: #fff;
+      text-align: left;
+      padding-top: 16%;
+      font-weight: 0;
+      padding-right: 0;
+      position: relative;
+      padding-left: 10%;
+    }
+
+    #Home #home-title h1, h2 {
+      font-size: 30px;
+      margin: 1px;
+    }
+
+    #Home #home-title h1 span {
+      color: #ff7885;
+    }
+
+    #Home #home-title p {
+      margin-top: 20px;
+      font-size: 24px;
+    }
+
+    #Home #home-title a {
+      color: #fff;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      height: 30px;
+      width: 80px;
+      text-align: center;
+      background-color: #ff7885;
+      padding: 0;
+    }
+
+    #Home #home-title a:hover {
+      background-color: #fff;
+      color: #ff7885;
+      border: 1px solid #ff7885;
+    }
+}
+
+
+
+
+
 
 
 /*......................................
