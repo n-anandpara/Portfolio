@@ -165,16 +165,11 @@ hr {
 
 .navbar-onScrolling{
 	background-color: #65446d;
-	font-size: .8rem;
-	font-weight: bold;
-	height: 50px;
-	width: 100%;
 }
 
 .nav-link-element{
 	color: #fff !important;
 	font-weight: bold;
-	letter-spacing: .1rem;
 	margin: 0px 5px;
 	text-transform: uppercase;
 }
@@ -211,11 +206,7 @@ hr {
 ...............................................*/
 
 #About{
-	padding: 60px 0 0 0;
-}
-
-#About .About-heading{
-	margin-bottom: 0px;
+	padding: 90px 0 0 0;
 }
 
 #About .About-heading h1 {
@@ -224,12 +215,42 @@ hr {
 }
 
 
-#About .About-col-heading {
-  font-size: 2rem;
-  color: #fff;
-  margin: 80px 0 0 0;
+#About .about-pic-and-skills {
+	margin: 30px 0 0 0;
 }
 
+#About .about-pic-and-skills .col-md-6 {
+  margin: 30px 0 0 0;
+}
+
+#About .discription h2 {
+ 	color: #ff7885;
+ }
+
+#About .discription .Content {
+	font-size: 16px;
+  color: #fff;
+  text-align: justify;
+}
+
+#About .about-pic-and-skills .about-pic a {
+	color: #ff7885;
+	font-weight: 600;
+}
+
+#About .about-pic-and-skills .skills .title {
+	text-align: left;
+	font-weight: 600;
+	font-size: 16px;
+	padding-left: 6px;
+}
+
+#About .About-col-heading {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 60px 0 0 0;
+  text-transform: uppercase;
+}
 
 #About .About-col {
   margin: 30px 0;
@@ -281,61 +302,28 @@ hr {
 
 
 section:nth-of-type(2) .hexagon i {
-	position: absolute;
-	top: 40px;
-	font-size: 50pt;
-	color: #fff;
-	left: 0;
-	right: 0;
-	z-index: 1;
+  position: absolute;
+  top: 40px;
+  font-size: 50pt;
+  color: #fff;
+  left: 0;
+  right: 0;
+  z-index: 1;
 }
 
 #About .About-col .title {
-	font-weight: bold;
-	position: relative;
-	margin-top: 10px;
-	bottom: -10px;
-	font-size: 1.5rem;
+  font-weight: bold;
+  position: relative;
+  margin-top: 10px;
+  bottom: -10px;
+  font-size: 1.5rem;
 }
-
-#About .about-pic-and-skills {
-	margin: 30px 0 0 0;
-}
-
-#About .about-pic-and-skills .col-md-6 {
-  margin: 30px 0 0 0;
-}
-
-#About .discription h2 {
- 	color: #ff7885;
- }
-
-#About .discription .Content {
-	font-size: 16px;
-  color: #fff;
-  text-align: justify;
-}
-
-#About .about-pic-and-skills .about-pic a {
-	color: #ff7885;
-	font-weight: 600;
-}
-
-#About .about-pic-and-skills .skills .title {
-	text-align: left;
-	font-weight: 600;
-	font-size: 16px;
-	padding-left: 6px;
-}
-
-
 /*.............................................
 #Portfolio
 ...............................................*/
 
 #Portfolio{
 	padding: 60px 0 0 0;
-	height: auto;
 }
 
 #Portfolio .Portfolio-heading{
@@ -433,7 +421,7 @@ section:nth-of-type(2) .hexagon i {
 ............................................*/
 
 #Contact {
-	margin: 60px 0 0 0;
+	padding: 60px 0 0 0;
 }
 
 #Contact .Contact-heading {
