@@ -18,28 +18,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 /*.............Changing Color on Scrolling....................*/
 
-
-/*var $document = $(document),
-	$element = $('.navbar'),
-	FixedTop = 'fixed-top';
-
-	fadeIn = 'fadeIn';
-
-	$document.scroll(function(){
-		if ($document.scrollTop() > 100vh) {
-			$element.addClass(FixedTop);
-
-			$element.addClass(fadeIn);
-		}
-
-
-		if ($document.scrollTop() < 100vh) {
-			$element.removeClass(FixedTop);
-
-			$element.removeClass(fadeIn);
-		}
-	});*/
-
 	var toggleAffix = function(affixElement, scrollElement, wrapper) {
   
     var height = affixElement.outerHeight(),
@@ -80,20 +58,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 		barColor : "#ff7885",
 	});
 	
-	//Menu
-/*	$(".spinDown").click(function() {
-		var target = $(this).data("target");
-		var scrollFix = -80;
-		target = "#" + target;
-		$("html,body").animate({
-			scrollTop : $(target).offset().top + scrollFix
-		}, 1000);
-		return false;
-	});*/
-
-
-
-	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
-                event.preventDefault();
-                $(this).ekkoLightbox();
-            });
