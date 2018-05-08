@@ -29,6 +29,8 @@
   <!-- Bar Chart -->
   <link href="lib/barchart/progressbar.css" rel="stylesheet" type="text/css">
 
+  <link rel="stylesheet" type="text/css" href="lib/lightbox/css/lightbox.css">
+
 
   <!--My CSS File -->
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
@@ -46,12 +48,17 @@
 
   <section id="Home">
   <div class="container">
-    <div class="text-center" id="home-title">
-      <h1 class="slideInLeft wow"> Hi, I Am Neha. </h1>
-      <h2 class="slideInRight wow">I am Front End Developer.</h2>
-      <a type="button" class="btn btn-lg slideInUp wow" href="#About"> View My Profile </a>
+    <div class="row">
+      <div class=" col-xs-6 col-md-6 home-img fadeInLeft wow"><img src="img/ast.png"></div>
+    <div class=" col-xs-6 col-md-6 fadeInRight wow" id="home-title">
+      <h1> Hello, I'm <span>Neha Anandpara </span></h1>
+      <h2>I'm a front-end web developer</h2>
+      <p>discover my odyssey &nbsp; <a type="button" class="btn" href="#About"> here </a> </p> 
+      
     </div>
   </div>
+    </div>
+    
   </section>
 
 
@@ -61,7 +68,7 @@
       <div class="container">
         <a class="navbar-brand brand-name" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <span><i class="fas fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
@@ -165,8 +172,8 @@
     <div class="container">
       <!--........Portfolio Heading..........-->
       <div class="Portfolio-heading text-center">
-        <h1>Portfolio</h1>
-        <hr>
+        <h1 class="slideInLeft wow">Project</h1>
+        <hr class="slideInRight wow">
       </div>
       <!--........Portfolio Content..........-->
       <div class="row">
@@ -174,7 +181,7 @@
             <div class="Portfolio-wrap">
               <figure>
                 <img src="img//web1.jpg" class="img-fluid" alt="">
-                <a href="img/web1.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/web1.jpg" data-lightbox="Portfolio" data-title="Website 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -188,7 +195,7 @@
             <div class="Portfolio-wrap">
               <figure>
                 <img src="img/web2.jpg" class="img-fluid" alt="">
-                <a href="img/web2.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/web2.jpg" data-lightbox="Portfolio" data-title="Website 2" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -202,7 +209,7 @@
             <div class="Portfolio-wrap">
               <figure>
                 <img src="img/web3.jpg" class="img-fluid" alt="">
-                <a href="img/web3.jpg" data-lightbox="Portfolio" data-title="Web 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                <a href="img/web3.jpg" data-lightbox="Portfolio" data-title="Website 3" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
                 <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
               </figure>
 
@@ -222,49 +229,21 @@
   <section id="Contact">
     <div class="container">
       <div class="Contact-heading">
-        <h1 class="text-center">Contact</h1>
-        <hr>
+        <h1 class="text-center slideInLeft wow">Contact</h1>
+        <hr class="slideInRight wow">
       </div>
-        <h2>Feel Free to Contact ME.</h2>
-        <p>Want to Discuss Any of Your Projects. Connect me through...</p>
-          <div class="row">
-            <div class="contact-list">
-              <a href="https://www.facebook.com/nanandpara" target="_blank" > <img src="img/fb.png"/><a>
-              <a href="https://in.linkedin.com/in/neha-anandpara-183332b6" target="_blank" > <img src="img/in.png"/><a>
-              <a href="mailto:neha.anandpara1234@gmail.com" target="_blank" > <img src="img/g+.png"/><a>
-              <a href="https://github.com/n-anandpara/" target="_blank" > <img src="img/git1.png" /><a>
+        <h2 class="text-center">Feel Free to Contact ME.</h2>
+        <p class="text-center">Want to Discuss Any of Your Projects. Connect me through...</p>
+          <div class="row text-center">
+            <div class="contact-list text-center">
+              <a href="https://www.facebook.com/nanandpara" target="_blank"><i class="fab fa-facebook-f"></i><a>
+              <a href="https://in.linkedin.com/in/neha-anandpara-183332b6" target="_blank"><i class="fab fa-linkedin-in"></i><a>
+              <a href="mailto:neha.anandpara1234@gmail.com" target="_blank"><i class="fab fa-google-plus-g"></i><a>
+              <a href="https://github.com/n-anandpara/" target="_blank"><a>
             </div>
           </div>
     </div>
   </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -276,8 +255,9 @@
     <script src="lib/Bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src='lib/animation/css3-animate-it.js'></script>
     <script src="lib/wow/wow.js"></script>
-    <script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!--<script src="//cdn.jsdelivr.net/prefixfree/1.0.7/prefixfree.min.js"></script>-->
     <script src="lib/barchart/progressbar.js"></script>
+    <script src="lib/lightbox/js/lightbox.js"></script>
     <script src="js/myScript.js"></script>
 
 </body>
