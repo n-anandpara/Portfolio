@@ -116,13 +116,6 @@ hr {
   padding: 1px;
 }
 
-#Home #home-title a:hover {
-  background-color: #fff;
-  color: #ff7885;
-  border: 1px solid #ff7885;
-}
-
-
 /*......................................
 #Navbars
 ........................................*/
@@ -250,7 +243,7 @@ section:nth-of-type(2) .hexagon i {
 #About .About-col .title {
 	font-weight: bold;
 	position: relative;
-	margin-top: 40px;
+	margin-top: 10px;
 	bottom: -10px;
 	font-size: 1.5rem;
 }
@@ -259,11 +252,13 @@ section:nth-of-type(2) .hexagon i {
 	margin: 20px 0;
 }
 
-#About .about-pic h2 {
+#About .discription h2 {
  	color: #ff7885;
  }
-#About .about-pic-and-skills .about-pic .content {
-	font-size: 20px;
+#About .discription .Content {
+	font-size: 16px;
+  color: #fff;
+  text-align: justify;
 }
 
 #About .about-pic-and-skills .about-pic a {
@@ -430,13 +425,22 @@ section:nth-of-type(2) .hexagon i {
 	margin-left: 0;
 	margin: 30px 0;
 }
+#Contact .contact-list {
+ margin: 0px auto; 
+}
 
 #Contact .contact-list a {
-	margin: 5px;
+	margin: 3px;
   
 }
 
-#Contact .contact-list a i {
-  font-size: 30px;
+#Contact .contact-list a img {
+  height: 40px;
+  width: 40px;
 	margin: 5px;
+}
+
+#Contact .contact-list a .mail {
+  height: 50px;
+  width: 50px;
 }
