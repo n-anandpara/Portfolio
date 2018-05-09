@@ -339,6 +339,7 @@ hr {
   font-size: 1.4rem;
   color: #fff;
   margin: 60px 0 0 0;
+  text-transform: uppercase;
 }
 
 #About .About-col {
