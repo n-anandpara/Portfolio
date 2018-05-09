@@ -65,7 +65,7 @@ html.with-featherlight {
 	max-height: 95%;
 
 	/* styling */
-	background: #000;
+	background: transparent;
 	cursor: auto;
 
 	/* reset white-space wrapping */
@@ -89,8 +89,8 @@ html.with-featherlight {
 	/* position: centering vertical and horizontal */
 	position: absolute;
 	z-index: 9999;
-	top: 0;
-	right: 0;
+	top: 30px;
+	right: 30px;
 
 	/* dimensions: 25px x 25px */
 	line-height: 25px;
