@@ -336,10 +336,9 @@ hr {
 }
 
 #About .About-col-heading {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   color: #fff;
   margin: 60px 0 0 0;
-  text-transform: uppercase;
 }
 
 #About .About-col {
@@ -511,11 +510,10 @@ section:nth-of-type(2) .hexagon i {
 ............................................*/
 
 #Contact {
-	padding: 0;
 }
 
 #Contact .Contact-heading {
-	margin-bottom: 60px;
+	margin-bottom: 40px;
 }
 
 #Contact .Contact-heading h1 {
