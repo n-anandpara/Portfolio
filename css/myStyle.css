@@ -66,6 +66,7 @@ hr {
   bottom: 0;
 }
 
+
 #Home .row {
   display: flex;
   align-items: center;
@@ -84,7 +85,7 @@ hr {
  #Home #home-title{
   font-weight: 0;
   right: 0;
-  left: calc(15% - 10px);
+  left: calc(10% - 10px);
   bottom: 0;
   color: #fff;
   text-align: left;
@@ -122,35 +123,130 @@ hr {
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    #Home .home-img {
+      padding-left: calc(30% - 90px);
+      margin-top: calc(4% - 20px);
+    }
+
     #Home .home-img img {
-      height: 120px;
-      width: 70px;
+      height: 250px;
+      width: 200px;
+    }
+
+    #Home #home-title{
+      left: calc(5% - 10px);
     }
 
     #Home #home-title .text{
-      font-size: 16px;
+      font-size: 20px;
       letter-spacing: 1px;
     }
 
     #Home #home-title p {
       margin-top: 10px;
-      font-size: 12px;
+      font-size: 16px;
     }
 
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+  #Home .home-img {
+      padding-left: calc(30% - 90px);
+      margin-top: calc(4% - 20px);
+    }
+
+  #Home .home-img img {
+      height: 250px;
+      width: 150px;
+    }
+
+    #Home #home-title{
+      left: calc(5% - 10px);
+    }
+
+    #Home #home-title .text{
+      font-size: 20px;
+      }
+
+    #Home #home-title p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+@media only screen and (min-width: 768px) {
+    #Home .home-img {
+      padding-left: calc(40% - 100px);
+      margin-top: calc(4% - 20px);
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+    #Home .home-img img {
+      height: 300px;
+      width: 200px;
+    }
+
+    #Home #home-title .title-wrap {
+      padding-top: calc(10% - 20px);
+    }
+
+    #Home #home-title{
+      left: calc(8% - 30px);
+    }
+
+    #Home #home-title .text{
+      padding-right: calc(5% - 100px);
+    }
+
+    #Home #home-title .text{
+      font-size: 24px;
+      letter-spacing: 1px;
+    }
+
+    #Home #home-title p {
+      margin-top: 12px;
+      font-size: 18px;
+    }
+
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  #Home .home-img {
+  padding-left: calc(40% - 90px);
+  margin-top: calc(5% - 20px);
+}
+
+#Home .home-img img {
+  height: 300px;
+  width: 250px;
+}
+
+ #Home #home-title{
+  font-weight: 0;
+  right: 0;
+  left: calc(10% - 10px);
+  bottom: 0;
+  color: #fff;
+  text-align: left;
+}
+
+#Home #home-title .title-wrap {
+  padding-top: calc(8% - 10px);
+}
+
+#Home #home-title .text{
+  padding-right: calc(4% - 80px);
+  font-size: 24px;
+  width: 100%;
+}
+
+#Home #home-title .text span {
+  color: #ff7885;
+}
 
 } 
 
