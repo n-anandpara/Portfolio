@@ -112,13 +112,12 @@ hr {
 
 #Home #home-title a {
   color: #fff;
-  border: 1px solid transparent;
   border-radius: 20px;
   height: 25px;
   width: 70px;
   text-align: center;
   background-color: #ff7885;
-  padding: 1px;
+  padding: 0px;
 }
 
  /* Extra small devices (phones, 600px and down) */
@@ -512,7 +511,7 @@ section:nth-of-type(2) .hexagon i {
 ............................................*/
 
 #Contact {
-	padding: 60px 0 0 0;
+	padding: 0;
 }
 
 #Contact .Contact-heading {
