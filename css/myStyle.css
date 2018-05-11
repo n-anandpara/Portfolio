@@ -20,6 +20,7 @@ body{
 	background-color: #3b3251;
 	position: relative;
 	overflow-y: scroll;
+  margin-top: 50px;
 }
 
 a {
@@ -123,22 +124,21 @@ hr {
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #Home .home-img {
-      padding-left: calc(30% - 90px);
-      margin-top: calc(4% - 20px);
+      padding-left: calc(30% - 60px);
+      margin-top: calc(2% - 40px);
     }
 
     #Home .home-img img {
       height: 250px;
-      width: 200px;
+      width: 140px;
     }
 
     #Home #home-title{
-      left: calc(5% - 10px);
+      left: calc(8% - 10px);
     }
 
     #Home #home-title .text{
-      font-size: 20px;
-      letter-spacing: 1px;
+      font-size: 16px;
     }
 
     #Home #home-title p {
@@ -296,7 +296,8 @@ hr {
 ...............................................*/
 
 #About{
-	padding: 90px 0 0 0;
+  padding: 90px 0 0 0;
+  top: 50px;
 }
 
 #About .About-heading h1 {
@@ -306,7 +307,7 @@ hr {
 
 
 #About .about-pic-and-skills {
-	margin: 30px 0 0 0;
+	padding: 30px 0 0 0;
 }
 
 #About .about-pic-and-skills .col-md-6 {
