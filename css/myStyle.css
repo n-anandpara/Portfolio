@@ -19,7 +19,6 @@ body{
   font-family: 'Raleway', sans-serif;
 	background-color: #3b3251;
 	position: relative;
-	overflow-y: scroll;
   margin-top: 50px;
 }
 
@@ -57,7 +56,7 @@ hr {
 #Home
 ...............................................*/
 
-#Home{
+#home{
   background-image: url(../img/bg.jpg);
   background-size: cover;
   height: 100vh;
@@ -68,22 +67,22 @@ hr {
 }
 
 
-#Home .row {
+#home .row {
   display: flex;
   align-items: center;
 }
 
-#Home .home-img {
+#home .home-img {
   padding-left: calc(40% - 90px);
   margin-top: calc(5% - 20px);
 }
 
-#Home .home-img img {
+#home .home-img img {
   height: 300px;
   width: 250px;
 }
 
- #Home #home-title{
+ #home #home-title{
   font-weight: 0;
   right: 0;
   left: calc(10% - 10px);
@@ -92,26 +91,26 @@ hr {
   text-align: left;
 }
 
-#Home #home-title .title-wrap {
+#home #home-title .title-wrap {
   padding-top: calc(8% - 10px);
 }
 
-#Home #home-title .text{
+#home #home-title .text{
   padding-right: calc(4% - 80px);
   font-size: 24px;
   width: 100%;
 }
 
-#Home #home-title .text span {
+#home #home-title .text span {
   color: #ff7885;
 }
 
-#Home #home-title p {
+#home #home-title p {
   margin-top: 18px;
   font-size: 18px;
 }
 
-#Home #home-title a {
+#home #home-title a {
   color: #fff;
   border-radius: 20px;
   height: 25px;
@@ -123,25 +122,25 @@ hr {
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #Home .home-img {
-      padding-left: calc(30% - 60px);
+    #home .home-img {
+      padding-left: calc(10% - 5px);
       margin-top: calc(2% - 40px);
     }
 
-    #Home .home-img img {
+    #home .home-img img {
       height: 250px;
       width: 140px;
     }
 
-    #Home #home-title{
-      left: calc(8% - 10px);
+    #home #home-title{
+      left: calc(10% - 40px);
     }
 
-    #Home #home-title .text{
+    #home #home-title .text{
       font-size: 16px;
     }
 
-    #Home #home-title p {
+    #home #home-title p {
       margin-top: 10px;
       font-size: 16px;
     }
@@ -151,25 +150,25 @@ hr {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  #Home .home-img {
+  #home .home-img {
       padding-left: calc(30% - 90px);
       margin-top: calc(4% - 20px);
     }
 
-  #Home .home-img img {
+  #home .home-img img {
       height: 250px;
       width: 150px;
     }
 
-    #Home #home-title{
+    #home #home-title{
       left: calc(5% - 10px);
     }
 
-    #Home #home-title .text{
+    #home #home-title .text{
       font-size: 20px;
       }
 
-    #Home #home-title p {
+    #home #home-title p {
       margin-top: 10px;
       font-size: 16px;
     }
@@ -178,34 +177,34 @@ hr {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #Home .home-img {
+    #home .home-img {
       padding-left: calc(40% - 100px);
       margin-top: calc(4% - 20px);
     }
 
-    #Home .home-img img {
+    #home .home-img img {
       height: 300px;
       width: 200px;
     }
 
-    #Home #home-title .title-wrap {
+    #home #home-title .title-wrap {
       padding-top: calc(10% - 20px);
     }
 
-    #Home #home-title{
+    #home #home-title{
       left: calc(8% - 30px);
     }
 
-    #Home #home-title .text{
+    #home #home-title .text{
       padding-right: calc(5% - 100px);
     }
 
-    #Home #home-title .text{
+    #home #home-title .text{
       font-size: 24px;
       letter-spacing: 1px;
     }
 
-    #Home #home-title p {
+    #home #home-title p {
       margin-top: 12px;
       font-size: 18px;
     }
@@ -214,17 +213,17 @@ hr {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  #Home .home-img {
+  #home .home-img {
   padding-left: calc(40% - 90px);
   margin-top: calc(5% - 20px);
 }
 
-#Home .home-img img {
+#home .home-img img {
   height: 300px;
   width: 250px;
 }
 
- #Home #home-title{
+ #home #home-title{
   font-weight: 0;
   right: 0;
   left: calc(10% - 10px);
@@ -233,17 +232,17 @@ hr {
   text-align: left;
 }
 
-#Home #home-title .title-wrap {
+#home #home-title .title-wrap {
   padding-top: calc(8% - 10px);
 }
 
-#Home #home-title .text{
+#home #home-title .text{
   padding-right: calc(4% - 80px);
   font-size: 24px;
   width: 100%;
 }
 
-#Home #home-title .text span {
+#home #home-title .text span {
   color: #ff7885;
 }
 
@@ -253,24 +252,14 @@ hr {
 /*......................................
 #Navbars
 ........................................*/
-
-.navbar-onScrolling{
-	background-color: #65446d;
-}
-
-.nav-link-element{
-	color: #fff !important;
-	font-weight: bold;
-	margin: 0px 5px;
-	text-transform: uppercase;
+.navbar-onScrolling {
+  background-color: #65446d;
 }
 
 .navbar-onScrolling span i{
-	align-content: left;
 	color: #fff;
 	border: 1px solid #fff;
 	padding: 7px;
-	margin: 0px;
 }
 
 .affix {
@@ -283,8 +272,8 @@ hr {
 
 /* fixed to top styles */
 .affix.navbar {
-  background-color: #65446d;
 }
+
 .affix.navbar .nav-item>a, 
 .affix.navbar .navbar-brand {
     color: #fff;
@@ -295,55 +284,54 @@ hr {
 #About
 ...............................................*/
 
-#About{
-  padding: 90px 0 0 0;
-  top: 50px;
+#about{
+  padding: 60px 0 0 0;
 }
 
-#About .About-heading h1 {
+#about .about-heading h1 {
   text-transform: uppercase;
 	font-weight: bold;
 }
 
 
-#About .about-pic-and-skills {
+#about .about-pic-and-skills {
 	padding: 30px 0 0 0;
 }
 
-#About .about-pic-and-skills .col-md-6 {
+#about .about-pic-and-skills .col-md-6 {
   margin: 30px 0 0 0;
 }
 
-#About .discription h2 {
+#about .discription h2 {
  	color: #ff7885;
  }
 
-#About .discription .Content {
+#about .discription .Content {
 	font-size: 16px;
   color: #fff;
   text-align: justify;
 }
 
-#About .about-pic-and-skills .about-pic a {
+#about .about-pic-and-skills .about-pic a {
 	color: #ff7885;
 	font-weight: 600;
 }
 
-#About .about-pic-and-skills .skills .title {
+#about .about-pic-and-skills .skills .title {
 	text-align: left;
 	font-weight: 600;
 	font-size: 16px;
 	padding-left: 6px;
 }
 
-#About .About-col-heading {
+#about .about-col-heading {
   font-size: 1.4rem;
   color: #fff;
   margin: 60px 0 0 0;
   text-transform: uppercase;
 }
 
-#About .About-col {
+#about .about-col {
   margin: 30px 0;
 }
 
@@ -402,7 +390,7 @@ section:nth-of-type(2) .hexagon i {
   z-index: 1;
 }
 
-#About .About-col .title {
+#about .about-col .title {
   font-weight: bold;
   position: relative;
   margin-top: 10px;
@@ -413,35 +401,35 @@ section:nth-of-type(2) .hexagon i {
 #Portfolio
 ...............................................*/
 
-#Portfolio{
+#portfolio{
 	padding: 60px 0 0 0;
 }
 
-#Portfolio .Portfolio-heading{
+#portfolio .portfolio-heading{
 	text-transform: uppercase;
 	margin-bottom: 60px;
 }
 
-#Portfolio .Portfolio-heading h1 {
+#portfolio .portfolio-heading h1 {
 	font-weight: bold;
 }
 
-#Portfolio .Portfolio-wrap {
+#portfolio .portfolio-wrap {
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   transition: 0.3s;
 }
 
-#Portfolio .Portfolio-wrap:hover {
+#portfolio .portfolio-wrap:hover {
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.16);
 }
 
-#Portfolio .Portfolio-item {
+#portfolio .portfolio-item {
   position: relative;
-  height: 360px;
+  height: 250px;
   overflow: hidden;
 }
 
-#Portfolio .Portfolio-item figure {
+#portfolio .portfolio-item figure {
   background: #000;
   overflow: hidden;
   height: 200px;
@@ -450,17 +438,17 @@ section:nth-of-type(2) .hexagon i {
   margin: 0;
 }
 
-#Portfolio .Portfolio-item figure img {
+#portfolio .portfolio-item figure img {
 	height: 100%;
 	width: 100%;
 }
 
-#Portfolio .Portfolio-item figure:hover img {
+#portfolio .portfolio-item figure:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#Portfolio .Portfolio-item figure .link-preview, #Portfolio .Portfolio-item figure .link-details {
+#portfolio .portfolio-item figure .link-preview, #portfolio .portfolio-item figure .link-details {
   position: absolute;
   display: inline-block;
   opacity: 0;
@@ -473,36 +461,36 @@ section:nth-of-type(2) .hexagon i {
   transition: 0.2s linear;
 }
 
-#Portfolio .Portfolio-item figure .link-preview i, #Portfolio .Portfolio-item figure .link-details i {
+#portfolio .portfolio-item figure .link-preview i, #portfolio .portfolio-item figure .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #333;
 }
 
-#Portfolio .Portfolio-item figure .link-preview:hover, #Portfolio .Portfolio-item figure .link-details:hover {
+#portfolio .portfolio-item figure .link-preview:hover, #portfolio .portfolio-item figure .link-details:hover {
   background: #ff7885;
 }
 
-#Portfolio .Portfolio-item figure .link-preview:hover i, #Portfolio .Portfolio-item figure .link-details:hover i {
+#portfolio .portfolio-item figure .link-preview:hover i, #portfolio .portfolio-item figure .link-details:hover i {
   color: #fff;
 }
 
-#Portfolio .Portfolio-item figure .link-preview {
+#portfolio .portfolio-item figure .link-preview {
   left: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#Portfolio .Portfolio-item figure .link-details {
+#portfolio .portfolio-item figure .link-details {
   right: calc(50% - 38px);
   top: calc(50% - 18px);
 }
 
-#Portfolio .Portfolio-item figure:hover .link-preview {
+#portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
   left: calc(50% - 44px);
 }
 
-#Portfolio .Portfolio-item figure:hover .link-details {
+#portfolio .portfolio-item figure:hover .link-details {
   opacity: 1;
   right: calc(50% - 44px);
 }
@@ -510,6 +498,9 @@ section:nth-of-type(2) .hexagon i {
 /*.......................................
 #Contact
 ............................................*/
+#Contact {
+  padding: 60px 0 0 0;
+}
 
 #Contact .Contact-heading {
 	margin-bottom: 40px;
