@@ -8,6 +8,7 @@
   	<meta content="" name="description">
   	<meta name="author" content="Neha Anandpara">
 
+
   	<!--Bootstrap Files-->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!--Animation -->
@@ -22,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="css/myStyle.css">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarSupportedContent" data-offset="150">
 
 
 <!--...........................................Home Page..........................................-->
@@ -38,7 +39,7 @@
               <div class="text">  Hello, I'm &nbsp;<span>Neha Anandpara</span></div>
               <div class="text"> I'm a front-end web developer</div>
             </div>
-            <p>discover my odyssey &nbsp; <a type="button" class="btn" href="#about"> here </a> </p> 
+            <p>discover my odyssey &nbsp; <a type="button" class="btn smooth-scroll" href="#about"> here </a> </p> 
           </div>
         </div>
       </div>
@@ -48,24 +49,25 @@
 
 <!--.............................Header................................-->
   
-    <nav class="navbar navbar-expand-lg navbar-onScrolling" data-toggle="affix" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-onScrolling" data-toggle="affix">
       <div class="container">
+        <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="fas fa-bars"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link nav-link-element" href="#home">HOME</a>
+              <a class="nav-link nav-link-element active smooth-scroll" href="#home">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-element" href="#about">ABOUT</a>
+              <a class="nav-link nav-link-element active smooth-scroll" href="#about">ABOUT</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-element" href="#portfolio">PORTFOLIO</a>
+              <a class="nav-link nav-link-element active smooth-scroll" href="#portfolio">PORTFOLIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-element" href="#Contact">CONTACT</a>
+              <a class="nav-link nav-link-element active smooth-scroll" href="#Contact">CONTACT</a>
             </li>
           </ul>
         </div>

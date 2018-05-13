@@ -19,7 +19,6 @@ body{
   font-family: 'Raleway', sans-serif;
 	background-color: #3b3251;
 	position: relative;
-  margin-top: 50px;
 }
 
 a {
@@ -50,7 +49,6 @@ hr {
 	width: 60px;
 	border-top: 2px solid #fff;
 }
-
 
 /*.............................................
 #Home
