@@ -121,7 +121,7 @@ hr {
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #home .home-img {
-      padding-left: calc(20% - 5px);
+      padding-left: calc(15% - 1px);
       margin-top: calc(2% - 40px);
     }
 
@@ -131,7 +131,7 @@ hr {
     }
 
     #home #home-title{
-      left: calc(8% - 1px);
+      left: calc(5% - 20px);
     }
 
     #home #home-title .text{
@@ -340,6 +340,7 @@ hr {
   display: inline-block;
 }
 
+
 #hex {
   width: 150px;
   height: 150px;
@@ -394,6 +395,23 @@ section:nth-of-type(2) .hexagon i {
   margin-top: 10px;
   bottom: -10px;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  #hex {
+    width: 100px;
+    height: 100px;
+  }
+
+  section:nth-of-type(2) .hexagon i {
+  position: absolute;
+  top: 30px;
+  font-size: 30pt;
+  color: #fff;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  }
 }
 /*.............................................
 #Portfolio
