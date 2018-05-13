@@ -13,6 +13,9 @@ $('a.smooth-scroll[href*="#"]:not([href="#"])').click(function() {
   }
 }); 
 
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
 
 /*...........Initialize wow file.................*/
 	new WOW().init();

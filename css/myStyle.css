@@ -412,6 +412,10 @@ section:nth-of-type(2) .hexagon i {
   right: 0;
   z-index: 1;
   }
+
+  #about .about-pic-and-skills .skills {
+    left: 20px;
+  }
 }
 /*.............................................
 #Portfolio
