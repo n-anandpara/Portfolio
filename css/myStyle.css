@@ -134,7 +134,8 @@ hr {
     }
 
     #home #home-title{
-      left: 0px;
+      padding-left: 20px;
+      width: 93%;
     }
 
     #home #home-title .text{
