@@ -134,7 +134,7 @@ hr {
     }
 
     #home #home-title{
-      left: calc(5% - 1px);
+      left: 0px;
     }
 
     #home #home-title .text{
@@ -417,7 +417,7 @@ section:nth-of-type(2) .hexagon i {
   }
 
   #about .about-pic-and-skills .skills {
-    margin-right: 25px;
+    margin-right: 20px;
   }
 }
 /*.............................................
