@@ -20,7 +20,7 @@ $('.navbar-nav>li>a').on('click', function(){
 /*...........Initialize wow file.................*/
 	new WOW().init();
 
-/*.............Changing Color on Scrolling....................*/
+/*.............Fix to Top....................*/
 
 	var toggleAffix = function(affixElement, scrollElement, wrapper) {
   
